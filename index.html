@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Website</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      background:#f4f4f4;
+      color:#333;
+    }
+
+    header{
+      background:#0077ff;
+      color:white;
+      padding:20px;
+      text-align:center;
+    }
+
+    nav{
+      background:#0056b3;
+      padding:10px;
+      text-align:center;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin:0 15px;
+      font-weight:bold;
+    }
+
+    .hero{
+      height:300px;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      flex-direction:column;
+      background:linear-gradient(to right,#0077ff,#00c6ff);
+      color:white;
+      text-align:center;
+    }
+
+    .hero h1{
+      font-size:50px;
+      margin-bottom:10px;
+    }
+
+    .hero p{
+      font-size:20px;
+    }
+
+    .container{
+      padding:40px;
+      text-align:center;
+    }
+
+    .card{
+      background:white;
+      padding:20px;
+      margin:20px auto;
+      width:80%;
+      border-radius:10px;
+      box-shadow:0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    footer{
+      background:#222;
+      color:white;
+      text-align:center;
+      padding:15px;
+      margin-top:30px;
+    }
+
+    button{
+      padding:12px 20px;
+      border:none;
+      background:#0077ff;
+      color:white;
+      border-radius:5px;
+      cursor:pointer;
+      margin-top:15px;
+      font-size:16px;
+    }
+
+    button:hover{
+      background:#0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Own Website</h1>
+    <p>Welcome to my simple HTML website</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Hello World!</h1>
+    <p>Create your own amazing website using HTML & CSS</p>
+    <button onclick="showMessage()">Click Me</button>
+  </section>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>About This Website</h2>
+      <p>
+        This is a responsive website template created using pure HTML, CSS, and JavaScript.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Our Services</h2>
+      <p>
+        Web Design, Development, UI/UX, Responsive Layouts and more.
+      </p>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>© 2026 My Website | All Rights Reserved</p>
+  </footer>
+
+  <script>
+    function showMessage(){
+      alert("Welcome to My Website!");
+    }
+  </script>
+
+</body>
+</html>
