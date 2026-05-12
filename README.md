@@ -1,0 +1,2 @@
+# soft
+automated soft installation
